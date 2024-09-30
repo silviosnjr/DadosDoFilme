@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradiente de fundo */
+    margin: 0; /* Remove a margem padrão */
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s; /* Transição suave para o efeito de hover */
+}
+
+.container:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #ff4081; /* Cor de fundo do botão */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Transições suaves */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra do botão */
+}
+
+button:hover {
+    background-color: #e91e63; /* Cor ao passar o mouse */
+    transform: translateY(-2px); /* Efeito de elevação ao passar o mouse */
+}
+
+h2 {
+    font-size: 24px;
+    margin: 20px 0 10px; /* Margens para espaçamento */
+    color: #333; /* Cor do texto */
+}
+
+p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #555; /* Cor do texto */
+}
+
+img {
+    margin-top: 20px;
+    border-radius: 12px;
+    max-width: 100%;
+    height: auto; /* Ajusta a altura automaticamente */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra para a imagem */
+}
